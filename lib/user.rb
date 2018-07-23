@@ -8,5 +8,8 @@ class User
     @last_name = last_name
     @@empty_knowledge << self
   end
-
+  
+  def self.empty_knowledge
+    @@empty_knowledge
+  end
 end
