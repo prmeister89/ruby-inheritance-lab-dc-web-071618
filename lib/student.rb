@@ -1,8 +1,8 @@
 class Student < User
   @knowledge = []
   
-  def initialize(self)
-    @knowledge << self
+  def initialize(knowledge)
+    @knowledge << knowledge
   end
 
  
