@@ -10,6 +10,6 @@ class User
   end
 
   def self
-    @@empty_knowledge
+    @self
   end
 end
