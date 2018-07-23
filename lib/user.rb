@@ -9,7 +9,7 @@ class User
     @empty_knowledge << self
   end
 
-  def self
-    @self
+  def self.empty_knowledge
+    @@empty_knowledge
   end
 end
