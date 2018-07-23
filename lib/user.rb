@@ -3,7 +3,7 @@ class User
   
   @@empty_knowledge = []
   
-  def initialize(empty_knowledge)
+  def initialize(@@empty_knowledge)
     @first_name = first_name
     @last_name = last_name
     @@empty_knowledge << self
